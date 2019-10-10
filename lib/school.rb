@@ -19,8 +19,8 @@ class School
     @roster[grade] << name    #pushes name to empty array based on which grade given as argument
   end
 
-  def grade(number)
-    @roster[number]
+  def grade(grade)     #method to output names based on grade
+    @roster[grade]
   end
 
   def sort
