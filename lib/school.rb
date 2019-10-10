@@ -11,7 +11,7 @@ class School
   end
 
   def add_student(name, grade) #part 3
-    @student_name = name      
+    @student_name = name
     @grade = grade
     if @roster.include?(grade) == false   #conditional if passed will create empty array for each grade
       @roster[grade] = []
